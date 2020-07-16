@@ -1,0 +1,134 @@
+body {
+    height: 100px;
+}
+
+.title {
+    /*    height:90%;*/
+    /*    width: 270px;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.title img {
+    float: left;
+    /*    margin-left: 10px;*/
+    margin-right: 10px;
+}
+
+.title h2 {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    color: #7c0800; 
+    width: 320px
+}
+
+.title h3 {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    color: #7c0800;  
+    width: 320px;
+}
+
+@media (max-width:629px) {
+    img#optionalstuff {
+/*        display: none;*/
+        width: 45px;
+        height: 45px;      
+    }
+    
+    h2#titleid{
+        font-size: 16px;
+        width:260px;
+    }
+    h3#titleid{
+        font-size: 12px;
+        width: 250px;
+    }   
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divho {
+    border: 0px solid black;
+}
+
+.divho:hover {
+    border: 1px solid black;
+}
+
+
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+
+.files input:focus {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    border: 1px solid #92b0b3;
+}
+
+.files {
+    position: relative
+}
+
+.files:after {
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.color input {
+    background-color: #f1f1f1;
+}
+
+.files:before {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
